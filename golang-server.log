@@ -1,0 +1,18 @@
+2021/04/02 21:58:20 Taxdoo Go App started!
+2021/04/02 21:58:20 Listening on port 8080
+
+2021/04/02 21:58:24 ________________________________________________________________________________
+2021/04/02 21:58:24 Total transactions count: 10
+2021/04/02 21:58:24 Type [Refund] Item price sum = 216.21
+2021/04/02 21:58:24 Type [Sale] Item price sum = 242.85
+2021/04/02 21:58:24 ________________________________________________________________________________
+2021/04/02 21:58:24 HTTP request to endpoint: getTransactionsSummaryPage
+2021/04/02 21:58:24 Serving public/index.html to [::1]:62738...
+2021/04/02 21:58:25 ________________________________________________________________________________
+2021/04/02 21:58:25 Total transactions count: 10
+2021/04/02 21:58:25 Type [Sale] Item price sum = 242.85
+2021/04/02 21:58:25 Type [Refund] Item price sum = 216.21
+2021/04/02 21:58:25 ________________________________________________________________________________
+2021/04/02 21:58:25 HTTP request to endpoint: getTransactionsSummaryPage
+2021/04/02 21:58:25 Serving public/index.html to [::1]:62738...
+2021/04/02 21:58:30 HTTP request to endpoint: checkApiStatusPage

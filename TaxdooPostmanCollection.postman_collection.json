@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "4fd61052-d214-48f0-9fad-7760a0183d4a",
+		"name": "TaxdooPostmanCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DemoJavaAPI",
+			"item": [
+				{
+					"name": "Check API status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DemoJavaAPI}}/api/",
+							"host": [
+								"{{DemoJavaAPI}}"
+							],
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Transactions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DemoJavaAPI}}/api/transactions",
+							"host": [
+								"{{DemoJavaAPI}}"
+							],
+							"path": [
+								"api",
+								"transactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create New Transaction",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"Refund\",\r\n    \"quantity\": 81425\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{DemoJavaAPI}}/api/transactions/add",
+							"host": [
+								"{{DemoJavaAPI}}"
+							],
+							"path": [
+								"api",
+								"transactions",
+								"add"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DemoGoAPI",
+			"item": [
+				{
+					"name": "Check API status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DemoGoAPI}}/api/",
+							"host": [
+								"{{DemoGoAPI}}"
+							],
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create 10 new transactions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DemoGoAPI}}/api/transactions/generate",
+							"host": [
+								"{{DemoGoAPI}}"
+							],
+							"path": [
+								"api",
+								"transactions",
+								"generate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get transactions summary",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{DemoGoAPI}}/api/transactions/summary",
+							"host": [
+								"{{DemoGoAPI}}"
+							],
+							"path": [
+								"api",
+								"transactions",
+								"summary"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "0fa7140e-cea8-42ab-abee-107939f9bfad",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "user",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "DemoJavaAPI",
+			"value": ""
+		},
+		{
+			"key": "DemoGoAPI",
+			"value": ""
+		}
+	]
+}

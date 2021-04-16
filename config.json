@@ -1,0 +1,6 @@
+{
+  "PrintLineCharLength": 80,
+  "TaxdooAPIWithJavaURL": "http://taxdooapiwithjavadocker-env.eba-jmm7er85.eu-central-1.elasticbeanstalk.com",
+  "WebServerPort": 8080,
+  "GolangServerLogFilePath": "golang-server.log"
+}
