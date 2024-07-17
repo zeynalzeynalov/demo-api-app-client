@@ -1,2 +1,2 @@
-# TaxdooClientWithGo
- Demo Go app for Taxdoo
+# DemoApiClientWithGo
+ Demo Go app

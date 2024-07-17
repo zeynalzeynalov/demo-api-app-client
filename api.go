@@ -10,7 +10,7 @@ import (
 
 func checkApiStatusPage(w http.ResponseWriter, r *http.Request){
 
-	fmt.Fprintf(w, "TaxdooClientApplication API is active.")
+	fmt.Fprintf(w, "DemoApiClientApplication API is active.")
 	log.Println("HTTP request to endpoint: checkApiStatusPage")
 }
 

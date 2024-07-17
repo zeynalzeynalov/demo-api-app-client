@@ -1,6 +1,6 @@
 FROM golang:1.14
 
-LABEL base.name="taxdooclientwithgo"
+LABEL base.name="demoapiclientwithgo"
 
 WORKDIR /app
 

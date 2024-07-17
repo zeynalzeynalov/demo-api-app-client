@@ -1,5 +1,5 @@
 //building docker image
-docker build . -t taxdooclientwithgo
+docker build . -t demoapiclientwithgo
 
 //running docker image
-docker run -p 8080:8080 taxdooclientwithgo
+docker run -p 8080:8080 demoapiclientwithgo

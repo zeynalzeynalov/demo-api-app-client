@@ -14,8 +14,8 @@ func main() {
 	defer f.Close()
 	log.SetOutput(f)
 
-	log.Println("Taxdoo Go App started!")
-	fmt.Println("Taxdoo Go App started!")
+	log.Println("DemoApi Go App started!")
+	fmt.Println("DemoApi Go App started!")
 
 	handleRequests()
 }

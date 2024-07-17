@@ -15,7 +15,7 @@ type Configuration struct {
 
 	PrintLineCharLength	int
 
-	TaxdooAPIWithJavaURL string
+	DemoAPIWithJavaURL string
 
 	WebServerPort int
 

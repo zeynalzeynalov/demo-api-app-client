@@ -83,7 +83,7 @@ type CreateTransactionBatchResult struct {
 }
 
 func getTransactionsSummary() TransactionsSummaryResult{
-	response, err := http.Get(config.TaxdooAPIWithJavaURL + "/api/transactions/")
+	response, err := http.Get(config.DemoAPIWithJavaURL + "/api/transactions/")
 	if err != nil {
 		log.Print(err.Error())
 		os.Exit(1)
@@ -143,7 +143,7 @@ func createTransaction(index int) CreateTransactionResult {
 		log.Fatal(err)
 	}
 
-	resp, err := http.Post(config.TaxdooAPIWithJavaURL + "/api/transactions/add", "application/json",
+	resp, err := http.Post(config.DemoAPIWithJavaURL + "/api/transactions/add", "application/json",
 		bytes.NewBuffer(json_data))
 
 	if err != nil {

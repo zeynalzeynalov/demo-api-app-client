@@ -8,7 +8,6 @@ target/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-TaxdooClientWithGo.zip
 
 ### STS ###
 .apt_generated
