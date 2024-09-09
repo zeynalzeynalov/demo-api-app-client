@@ -56,7 +56,7 @@ type Reference struct {
 
 type TransactionsSummaryResult struct {
 
-	Result 		string 										`json:"Result"`
+	Result 		string 					`json:"Result"`
 	TransactionsTypePriceSums []TransactionsTypePriceSum	`json:"TransactionsTypePriceSums"`
 }
 
